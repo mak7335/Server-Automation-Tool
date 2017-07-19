@@ -1,15 +1,16 @@
 #!/bin/bash
 
 tput bold
-echo "Please wait a while, servers are being installed and configured..."
-yum install -y mariadb mariadb-server &> /dev/null
-systemctl start mariadb; 
-systemctl enable mariadb;
+echo "Please wait a while, Server is installing and configuring.."
+
+yum install nfs-utils -y &> /dev/null
+echo "Create directory for NFS Server"
+read -p "Create directory name for NFS SERVER" dir
+mkdir /$dir
+echo "" >> /etc/exports;
+echo "/$dir		192.168.0.0/24(sync,rw)" >> /etc/exports;
 tput sgr0
-echo -e "\nPress ENTER(none) when asked for root password"
-mysql_secure_installation;
-firewall-cmd --permanent --add-service=mysql &> /dev/null
-firewall-cmd --reload &> /dev/null
-notify-send "Installed and Configured Successfully."
-zenity --info --title="INSTALLATION" --text="installed"
-sh install.sh
+notify-send "Server is installed and configured successfully."
+zenity --info --title="INSTALLATION" --text="Complete"
+sh install.sh;
+

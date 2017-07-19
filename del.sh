@@ -1,8 +1,8 @@
 #!/bin/bash
 tput bold
-echo "Please wait while the server is uninstalling.."
+echo "Please wait while the server is installing and configuring.."
 tput sgr0
-yum remove mariadb -y &> /dev/null
+yum remove nfs-utils -y &> /dev/null
 notify-send "Server is uninstalled/removed."
 zenity --info --title="INSTALLATION" --text="uninstalled"
 sh install.sh
