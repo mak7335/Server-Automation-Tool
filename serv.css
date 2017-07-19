@@ -1,0 +1,29 @@
+body {
+    background-image: url(pattern.jpg);
+}
+
+.reset{
+    width: 550px;
+    height:250px;
+    
+    margin-top: 150px;
+    margin-left: 350px;
+    padding-top: 50px;
+    padding-left: 130px;
+    color:aliceblue;
+}
+    
+.set {
+    width: 100px;
+    height: 30px;
+
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+.side{
+    margin-left: 100px;
+}

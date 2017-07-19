@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ser.css" type="text/css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>
+        MARIADB server
+    </title>
+</head>
+
+<body>
+    <div>
+        <h1>NIS SERVER</h1>
+
+    </div>
+
+
+    <div id="upleft">
+
+        <h2>WHAT IS A NIS SERVER ?</h2>
+        <p>
+
+            NIS (Network Information System) is a network naming and administration system for smaller networks that was developed by Sun Microsystems. NIS+ is a later version that provides additional security and other facilities. Using NIS, each host client or server computer in the system has knowledge about the entire system. A user at any host can get access to files or applications on any host in the network with a single user identification and password. NIS is similar to the Internet's domain name system (DNS) but somewhat simpler and designed for a smaller network. It's intended for use on local area networks.
+        </p>
+        <h2>HOW DOES NIS SERVER WORK ?</h2>
+        <p>
+            Within a network there must be at least one machine acting as a NIS server. You can have multiple NIS servers, each serving different NIS "domains" - or you can have cooperating NIS servers, where one is the master NIS server, and all the other are so-called slave NIS servers (for a certain NIS "domain", that is!) - or you can have a mix of them... Slave servers only have copies of the NIS databases and receive these copies from the master NIS server whenever changes are made to the master's databases. Depending on the number of machines in your network and the reliability of your network, you might decide to install one or more slave servers. 
+        </p>
+    </div>
+
+
+    <div id="upright">
+        <iframe class="frameset" src="https://www.youtube.com/embed/uYlqbu3TCvY">
+        </iframe>
+    </div>
+    <div id="ul">
+        <h2>COMMANDS USED FOR NIS SERVER</h2>
+        <br>
+        <div>
+            <h3>At SERVER's SIDE :</h3></div>
+
+        <p>1. yum install ypserv*
+            <br>2. yum uninstall ypserv*</p>
+
+    </div>
+
+    <div id="rl">
+        <img src="nis.jpe">
+    </div>
+
+
+</body>
+
+</html>

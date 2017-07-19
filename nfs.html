@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ser.css" type="text/css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>
+        NFS server
+    </title>
+</head>
+
+<body>
+    <div>
+        <h1>NFS SERVER</h1>
+
+    </div>
+
+
+    <div id="upleft">
+
+        <h2>WHAT IS A NFS SERVER ?</h2>
+        <p>
+
+          The Network File System (NFS) is a client/server application that lets a computer user view and optionally store and update files on a remote computer as though they were on the user's own computer. The NFS protocol is one of several distributed file system standards for network-attached storage (NAS).NFS allows the user or system administrator to mount (designate as accessible) all or a portion of a file system on a server. The portion of the file system that is mounted can be accessed by clients with whatever privileges are assigned to each file (read-only or read-write). NFS uses Remote Procedure Calls (RPC) to route requests between clients and servers.
+
+
+
+
+        </p>
+        <h2>HOW DOES NFS SERVER WORK ?</h2>
+        <p>
+            NFS begins with two computers which can speak TCP/IP to each other, most commonly over a Local Area Network, e.g. Ethernet.
+
+One computer will be the NFS server: it offers up various chunks of disk storage (which is usually directly attached to the server system) to NFS clients that it can exchange TCP/IP packets with.
+
+The other computer will be the NFS client: it will make a "mount" request of the NFS server, and subsequently make open/read/write/lseek/close requests of the NFS server on a per-file basis.
+
+
+        </p>
+    </div>
+
+
+    <div id="upright">
+        <iframe class="frameset" src="https://www.youtube.com/embed/VAarlBqUKn8">
+        </iframe>
+    </div>
+    <div id="ul">
+        <h2>COMMANDS USED FOR NFS SERVER</h2>
+        <br>
+        <div>
+            <h3>At SERVER's SIDE :</h3></div>
+
+        <p>1. yum install nfs
+            <br>2. yum uninstall nfs</p>
+
+    </div>
+
+    <div id="rl">
+        <img src="nfs.png">
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+    body {
+    background-image: url(pattern.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(217,179,70);
+}
+h2 {
+   color: rgb(217,179,70); 
+}
+h3 {
+   color: rgb(217,179,70); 
+}
+#upleft {
+    width: 780px;
+    height: 370px;
+    float: left;
+    display: block;
+    margin: 20px;
+    
+}
+
+#upright {
+    width: 500px;
+    height: 400px;
+    float: left;
+    display: block;
+
+}
+
+#ul {
+     width: 780px;
+    height: 370px;
+    float: left;
+    display: block;
+    margin: 20px;
+   
+    
+}
+
+#rl {
+    width: 500px;
+    height: 400px;
+    float: left;
+    display: block;
+
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 150px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+p{
+    text-align: justify;
+    color: rgb(234,239,243);
+}
+
+.frameset{
+    width: 420px;
+    height: 375px;
+    margin-left: 30px;
+}
